@@ -1,11 +1,17 @@
 
 ## Checksec
 
-The code will be shared later.
+```
+Windows 7 x86
+Visual Studio 2010
+Windows Driver Kit Version 7.1.0
+```
+
+Only for Windows 32bit. Please wait for 64bit.
 
 ```
-0:001> !help checksec
-Open Source Debug Extensions
+0:001> !checksec help
+Windbg Extensions: CheckSec - By Nixawk
 
 !checksec - Check modules ASLR/DEP/SafeSEH settings
 ```
@@ -44,6 +50,7 @@ Image Base 	Size 		ASLR 	DEP 	Safe SEH 	Module Name
 
 ## References
 
+- https://www.microsoft.com/en-in/download/details.aspx?id=11800
 - https://blogs.msdn.microsoft.com/sgajjela/2013/03/02/how-to-develop-windbg-extension-dll/
 - https://dimitrifourny.github.io/2014/02/28/make-plugin-for-windbg/
 - https://github.com/rapid7/metasploit-framework/tree/master/external/source/byakugan

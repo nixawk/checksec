@@ -1,0 +1,7 @@
+LIBRARY "CHECKSEC.DLL"
+
+EXPORTS
+    WinDbgExtensionDllInit
+    ExtensionApiVersion
+    checksec
+    help

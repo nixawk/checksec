@@ -1,0 +1,29 @@
+﻿生成启动时间为 5/19/2018 12:13:19 AM。
+项目“C:\Users\debug\Desktop\checksec\checksec\checksec.vcxproj”在节点 2 上(build 个目标)。
+InitializeBuildStatus:
+  正在创建“Release\checksec.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D CHECKSEC_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\checksec.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+  stdafx.cpp
+  c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D CHECKSEC_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\checksec.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt checksec.cpp
+  checksec.cpp
+  c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D CHECKSEC_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+  dllmain.cpp
+Link:
+  c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\debug\Desktop\checksec\\bin\Release\checksec.dll" /INCREMENTAL:NO /NOLOGO dbgeng.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"checksec.def" /MANIFEST /ManifestFile:"Release\checksec.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\debug\Desktop\checksec\bin\Release\checksec.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\debug\Desktop\checksec\\bin\Release\checksec.lib" /MACHINE:X86 /DLL Release\checksec.obj
+  Release\dllmain.obj
+  Release\stdafx.obj
+     正在创建库 C:\Users\debug\Desktop\checksec\\bin\Release\checksec.lib 和对象 C:\Users\debug\Desktop\checksec\\bin\Release\checksec.exp
+  正在生成代码
+  已完成代码的生成
+  checksec.vcxproj -> C:\Users\debug\Desktop\checksec\\bin\Release\checksec.dll
+Manifest:
+  c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\debug\Desktop\checksec\\bin\Release\checksec.dll;#2" /manifest Release\checksec.dll.intermediate.manifest
+FinalizeBuildStatus:
+  正在删除文件“Release\checksec.unsuccessfulbuild”。
+  正在对“Release\checksec.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Users\debug\Desktop\checksec\checksec\checksec.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.44
